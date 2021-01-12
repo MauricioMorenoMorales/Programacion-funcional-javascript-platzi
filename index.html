@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Programación Funcional con Javascript</title>
 </head>
+
 <body>
     <div class="container">
         <header id="header">
@@ -41,10 +43,11 @@
                     <input type="number" min="0" name="carbs" id="carbs" placeholder="Carbs">
                     <input type="number" min="0" name="protein" id="protein" placeholder="Protein">
                 </div>
-                <button class="add" id="add">+</button>
+                <button onclick="validateInputs()" class="add" id="add">+</button>
             </form>
         </div>
     </div>
     <script src="./js/main.js"></script>
 </body>
+
 </html>
